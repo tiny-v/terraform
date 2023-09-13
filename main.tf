@@ -14,7 +14,7 @@ provider "alicloud" {
 }
 
 resource "alicloud_disk" "ecs_disk" {
-  zone_id = "cn-beijing"
+  zone_id = "cn-beijing-a"
   disk_name              = "mayue-terraform-test"
   description       = "mayue terraform test disk"
   category          = "cloud_efficiency"
